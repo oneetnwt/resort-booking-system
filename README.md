@@ -1,8 +1,8 @@
-# K&A Resort Booking System
+# Resort Booking System
 
 ## Description
 
-This is a booking system for K&A Resort. It is a web application that allows users to book rooms in the resort.
+This is a booking system for Resort. It is a web application that allows users to book rooms in the resort.
 
 ## Features
 
