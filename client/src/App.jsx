@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import HeroBanner from "./components/HeroBanner";
-import AboutUs from "./components/AboutUs/AboutUs";
+import HeroBanner from "./components/Home/HeroBanner";
+import AboutUs from "./components/Home/AboutUs";
+import Rate from "./components/Home/Rate";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </q>
       </div>
       <AboutUs />
+      <Rate />
     </>
   );
 }
