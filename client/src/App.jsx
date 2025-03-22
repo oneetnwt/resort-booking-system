@@ -8,8 +8,12 @@ function App() {
     <>
       <Navbar />
       <HeroBanner />
-      <div className="h-[10rem] flex justify-center items-center italic text-xl text-[var(--secondary-color)]">
-        “Discover the joy of slowing down and soaking in the beauty around you.”
+      <div className="py-[5rem] flex justify-center items-center ">
+        <q className="italic text-xl font-[300] text-[var(--primary-color)] text-center">
+          Experience the unforgettable happiness with your family and
+          <br />
+          friends at K&A Natural Spring Resort
+        </q>
       </div>
       <AboutUs />
     </>

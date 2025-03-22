@@ -1,21 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 :root {
-    --primary-color: #173931;
-    --secondary-color: #2E5D52;
-    --accent-color: #FFA500;
-    --hover-color : #e0be4c;
-    --text-color: #333333;
-    --background-color: #F9F9F9;
+  --primary-color: #102c57;
+  --secondary-color: #f1f1e6;
+  --accent-color: #ffa500;
+  --hover-color: #e0be4c;
+  --text-color: #333333;
+  --background-color: #f9f9f9;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    background-color: var(--background-color);
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
 }
 
 .active {
-    color: var(--accent-color);
-    font-weight: 600;
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.tag::before,
+.tag::after {
+  content: "";
+  width: 1.125rem;
+  height: 1.25rem;
+  position: absolute;
+}
+
+/* About us Styling */
+.tag::after {
+  background: transparent;
+  top: 0;
+  right: -1.125rem;
+  border-top-left-radius: 1rem;
+  box-shadow: -0.375rem -0.375rem white;
+}
+
+.tag::before {
+  background: transparent;
+  left: 0;
+  bottom: -1.25rem;
+  border-top-left-radius: 1rem;
+  box-shadow: -0.375rem -0.375rem white;
 }
