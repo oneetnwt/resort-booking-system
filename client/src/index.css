@@ -8,6 +8,7 @@
   --hover-color: #e0be4c;
   --text-color: #333333;
   --background-color: #f9f9f9;
+  --danger-color: #ca0b00;
 }
 
 body {
@@ -34,7 +35,7 @@ body {
   top: 0;
   right: -1.125rem;
   border-top-left-radius: 1rem;
-  box-shadow: -0.375rem -0.375rem white;
+  box-shadow: -0.375rem -0.375rem var(--background-color);
 }
 
 .tag::before {
@@ -42,5 +43,5 @@ body {
   left: 0;
   bottom: -1.25rem;
   border-top-left-radius: 1rem;
-  box-shadow: -0.375rem -0.375rem white;
+  box-shadow: -0.375rem -0.375rem var(--background-color);
 }
