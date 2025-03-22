@@ -11,17 +11,17 @@ function Rate() {
 
         <div className="flex justify-center items-center gap-15 ">
           <EntranceRateBox
-            price="30.00"
+            price="30"
             title="Kids"
             description="12 years old and below"
           />
           <EntranceRateBox
-            price="50.00"
+            price="50"
             title="Adults and Teens"
             description="13 years old and above"
           />
           <EntranceRateBox
-            price="200.00"
+            price="200"
             title="Overnight Stay"
             description="5PM to 8AM with free cottage, minimum of 10 persons"
           />
