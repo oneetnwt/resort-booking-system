@@ -32,7 +32,7 @@ function Rate() {
         <p className="text-[var(--accent-color)]">
           Price listed is <strong>PER HEAD</strong>
         </p>
-        <button className="rounded-full text-white border-1 border-white p-[0.5rem_1rem] mt-5">
+        <button className="rounded-full text-[var(--background-color)] border-1 border-white p-[0.5rem_1rem] mt-5">
           See Other Promos
         </button>
       </div>
