@@ -5,11 +5,11 @@ function Rate() {
   return (
     <div className="h-auto  m-[6.25rem] border-b-1">
       <div className="bg-[var(--primary-color)] h-[100%] relative items-center justify-center flex flex-col z-[-1] py-[10rem_5rem] rounded-2xl">
-        <h1 className="absolute top-[-2rem] left-1/2 -translate-x-1/2 bg-[var(--background-color)] w-fit border-5 border-[var(--primary-color)] p-[0.75rem_1rem] rounded-2xl text-2xl font-bold text-[var(--primary-color)] shadow-md">
+        <h1 className="absolute top-[-2rem] left-1/2 -translate-x-1/2 bg-[var(--background-color)] w-fit border-3 border-[var(--primary-color)] p-[0.75rem_1rem] rounded-2xl text-3xl font-bold text-[var(--primary-color)] shadow-md">
           Entrance Rate
         </h1>
 
-        <div className="flex justify-center items-center gap-15 ">
+        <div className="flex justify-center items-center gap-15">
           <EntranceRateBox
             price="30"
             title="Kids"
@@ -32,7 +32,7 @@ function Rate() {
         <p className="text-[var(--accent-color)]">
           Price listed is <strong>PER HEAD</strong>
         </p>
-        <button className="rounded-full text-[var(--background-color)] border-1 border-white p-[0.5rem_1rem] mt-5">
+        <button className="rounded-full text-[var(--background-color)] border border-white p-[0.5rem_1rem] mt-5 hover:bg-[var(--accent-color)] hover:text-white transition duration-300">
           See Other Promos
         </button>
       </div>

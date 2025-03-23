@@ -2,7 +2,7 @@ import React from "react";
 
 function EntranceRateBox({ price, title, description }) {
   return (
-    <div className="bg-[var(--background-color)] flex flex-col items-center p-[2.5rem_1rem] w-[18rem] min-h-[18rem] rounded-md">
+    <div className="bg-[var(--background-color)] flex flex-col items-center p-[2.5rem_1rem] w-[18rem] min-h-[18rem] rounded-md cursor-pointer">
       <h1 className="text-7xl font-bold text-[var(--primary-color)] text-center">
         {"\u20B1"}
         {price}

@@ -28,7 +28,7 @@ function Navbar() {
 
         <div className="flex items-center gap-4">
           <NavbarLink name="Home" link="/" />
-          <NavbarLink name="Accomodation" link="/accomodation" />
+          <NavbarLink name="Accommodation" link="/accommodation" />
           <NavbarLink name="Amenities" link="/amenities" />
           <NavbarLink name="FAQs" link="/faq" />
           <NavbarLink name="Contact" link="/contact" />

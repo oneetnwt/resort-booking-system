@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import HeroBanner from "./components/Home/HeroBanner";
 import AboutUs from "./components/Home/AboutUs";
 import Rate from "./components/Home/Rate";
+import Accommodation from "./components/Home/Accommodation";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </div>
       <AboutUs />
       <Rate />
+      <Accommodation />
     </>
   );
 }
