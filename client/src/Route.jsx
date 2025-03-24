@@ -10,6 +10,7 @@ function route() {
       errorElement: <NotFound />,
     },
   ]);
+
   return <RouterProvider router={route} />;
 }
 

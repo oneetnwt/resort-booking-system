@@ -33,7 +33,7 @@ function Navbar() {
           <NavbarLink name="FAQs" link="/faq" />
           <NavbarLink name="Contact" link="/contact" />
 
-          <button className="ml-10 p-[0.625rem_2.25rem] border border-white hover:bg-[var(--accent-color)] hover:border-[var(--accent-color)] duration-300 rounded-[1.5rem] cursor-pointer">
+          <button className="ml-10 p-[0.5rem_1.75rem] border border-white hover:bg-[var(--accent-color)] hover:border-[var(--accent-color)] duration-300 rounded-[1.5rem] cursor-pointer">
             Book Now
           </button>
         </div>
