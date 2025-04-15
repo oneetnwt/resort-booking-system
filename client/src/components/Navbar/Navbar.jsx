@@ -21,7 +21,7 @@ function Navbar() {
         scroll ? "bg-[var(--primary-color)] shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="h-[2rem] flex justify-between items-center px-[6.25rem] text-white w-full">
+      <div className="h-[2rem] hidden md:flex justify-between items-center px-[6.25rem] text-white w-full">
         <div>
           <img src={kalogo} alt="K&A Logo" className="h-10 w-auto" />
         </div>
@@ -37,6 +37,9 @@ function Navbar() {
             Book Now
           </button>
         </div>
+      </div>
+      <div className="flex md:hidden">
+        <p>Hamburger</p>
       </div>
     </div>
   );

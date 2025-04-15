@@ -19,18 +19,18 @@ function AboutUs() {
           pool, and enjoy friendly service in our comfortable rooms. A relaxing
           getaway is waiting for you.
         </p>
-        <button class="flex items-center gap-2 bg-[var(--primary-color)] text-white px-4 py-2 rounded-r-full rounded-l-none w-fit hover:bg-[#2155a3] ease-in-out transition-all duration-300 cursor-pointer">
+        <button className="flex items-center gap-2 bg-[var(--primary-color)] text-white px-4 py-2 rounded-r-full rounded-l-none w-fit hover:bg-[#2155a3] ease-in-out transition-all duration-300 cursor-pointer">
           Learn More
           <svg
-            class="w-4 h-4"
+            className="w-4 h-4"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            strokeWidth="2"
             viewBox="0 0 24 24"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M9 5l7 7-7 7"
             ></path>
           </svg>
